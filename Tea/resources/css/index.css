@@ -1,0 +1,90 @@
+html {
+    font-family:Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+/* start header */
+.header {
+    background-color: black;
+    position: fixed;
+    top: -70px;
+    display:flex;  
+    width: 100%; 
+    justify-content: space-between;
+    margin: 70px auto;
+}
+.cozyimg{
+   height: 50px; 
+}
+nav {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 400px;
+    z-index: 1;
+    
+}
+a {
+    color: white;
+}
+/* start main one */
+.mainone {
+    background-image: url(file:///C:/projects/Tea/images/img-mission-background.jpg);
+    border-bottom: 1px solid seashell;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin: 69px auto;
+}
+.texttea {
+    width: 100%; 
+    background-color: black;
+    line-height: 0.3;
+}
+/* start section text */
+.text {
+    line-height: 0.1;
+    margin-top: 70px;
+}
+/* start section img */
+.img {
+   display: flex;
+   justify-content: center;
+   
+}
+.groupimg {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.simg {
+height:200px ;
+width:300px ;
+}
+/* start section imgtwo */
+.imgtwo {
+    height: 500px;
+    background-image: url(file:///C:/projects/Tea/images/img-locations-background.jpg);   
+}
+.texttwo {
+    font-size: 40px;
+    text-align: center;
+    line-height: 5;
+}
+.theecolki {
+display: flex;
+justify-content: space-around;
+
+}
+.adress {
+    max-width: 300px;
+    margin:20px 15px;
+    background-color: black;
+    opacity: 1;
+    
+}
